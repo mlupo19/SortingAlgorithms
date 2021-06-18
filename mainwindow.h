@@ -3,6 +3,7 @@
 
 #include <QMainWindow>
 #include <QRandomGenerator>
+#include <QThread>
 #include <string>
 
 #include "renderarea.h"

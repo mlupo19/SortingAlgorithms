@@ -16,8 +16,6 @@ void RenderArea::paintEvent(QPaintEvent *event) {
 
     size = this->width() / (items->size() * (1.0 + space));
 
-    //qDebug() << "Number of items rendered: " << items->size() << "\t\tSize of all: " << items->size() * (size + space);
-
     int numItems = items->size();
     for (int i = 0; i < numItems; i++) {
         QRect rect(static_cast<int>(i * (size + space)), 625 - static_cast<int>(items->at(i).value * scale), size, items->at(i).value * scale);

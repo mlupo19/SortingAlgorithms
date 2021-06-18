@@ -2,7 +2,6 @@
 #include "./ui_mainwindow.h"
 
 #include <QDebug>
-#include <QThread>
 
 void mergeSort(QVector<Item>* items, RenderArea* renderArea);
 void bubbleSort(QVector<Item>* items, RenderArea* renderArea);
@@ -197,7 +196,7 @@ void bubbleSort(QVector<Item>* items_pointer, RenderArea* renderArea) {
             }
         }
         emit renderArea->refresh();
-        QThread::usleep(3000);
+        QThread::msleep(32);
     }
 }
 
@@ -282,7 +281,7 @@ void selectionSort(QVector<Item>* items, RenderArea* renderArea) {
                 index = j;
             }
         }
-        QThread::usleep(3000);
+        QThread::msleep(24);
         Item temp = *min;
         (*items)[index] = (*items)[i];
         (*items)[i] = temp;

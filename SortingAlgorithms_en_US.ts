@@ -10,7 +10,7 @@
     </message>
     <message>
         <location filename="mainwindow.ui" line="166"/>
-        <location filename="mainwindow.cpp" line="82"/>
+        <location filename="mainwindow.cpp" line="81"/>
         <source>Quick Sort</source>
         <oldsource>Sort</oldsource>
         <translation type="unfinished"></translation>
@@ -29,25 +29,25 @@
     <message>
         <location filename="mainwindow.ui" line="50"/>
         <location filename="mainwindow.ui" line="151"/>
-        <location filename="mainwindow.cpp" line="61"/>
+        <location filename="mainwindow.cpp" line="60"/>
         <source>Merge Sort</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="156"/>
-        <location filename="mainwindow.cpp" line="68"/>
+        <location filename="mainwindow.cpp" line="67"/>
         <source>Bubble Sort</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="161"/>
-        <location filename="mainwindow.cpp" line="75"/>
+        <location filename="mainwindow.cpp" line="74"/>
         <source>Radix Sort</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="mainwindow.ui" line="171"/>
-        <location filename="mainwindow.cpp" line="89"/>
+        <location filename="mainwindow.cpp" line="88"/>
         <source>Selection Sort</source>
         <translation type="unfinished"></translation>
     </message>
